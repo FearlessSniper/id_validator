@@ -54,12 +54,4 @@ unsigned char check_digit(char* id) {
 	else {
 		return 11 - rem + '0';
 	}
-	/*for (i; i >= 2; i--) {
-		if (isalpha(*(id - (i - 9)))) {
-			sum += (toupper(*(id - (i - 9))) - 55) * i;
-		}
-		else {
-			sum += (*(id - (i - 9)) - 48) * i;
-		}
-	}*/
 }
