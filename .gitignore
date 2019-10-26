@@ -1,0 +1,7 @@
+# Folders of Compiled Source #
+/Release
+/Debug
+/x64
+/.vs
+# Compiled Source #
+*.exe
